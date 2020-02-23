@@ -688,7 +688,8 @@
     ]
   },
   "packageFolders": {
-    "/Users/robertrydlewski/.nuget/packages/": {}
+    "/Users/robertrydlewski/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -699,6 +700,9 @@
       "packagesPath": "/Users/robertrydlewski/.nuget/packages/",
       "outputPath": "/Users/robertrydlewski/Documents/Treehouse/C#/Lesson_3/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/robertrydlewski/.nuget/NuGet/NuGet.Config"
       ],

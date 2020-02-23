@@ -13,6 +13,9 @@
         "packagesPath": "/Users/robertrydlewski/.nuget/packages/",
         "outputPath": "/Users/robertrydlewski/Documents/Treehouse/C#/Lesson_3/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/robertrydlewski/.nuget/NuGet/NuGet.Config"
         ],

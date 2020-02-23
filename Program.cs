@@ -2,10 +2,18 @@ using System;
 using System.Threading; 
 class Program
 {
-    static void Main(string[] args)
+    static void Wait ()
     {
-        Console.WriteLine("Welcome to the cat food store!");
+        Console.WriteLine("Waiting..");
         Thread.Sleep(3000);
         Console.WriteLine("done sleeping");
+    }
+    
+    static void Main(string[] args)
+    {
+        Wait();
+        Console.WriteLine(1);
+        Console.WriteLine(2);
+        Console.WriteLine(3);
     }
 }

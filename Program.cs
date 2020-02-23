@@ -4,6 +4,7 @@ class Program
 {
     static void Wait()
     {
+        CountToThree();
         Console.WriteLine("Waiting..");
         Thread.Sleep(3000);
         Console.WriteLine("done sleeping");
